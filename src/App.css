@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container {
+  background-color: rgb(16, 16, 16);
+  border: 90px blue;
+  padding: 0px;
+  margin: 0px;
+ }
+  
+ .card-container{
+    background-color: aquamarine;
+    border-spacing: 4%;
+    padding: 3%;
+    border: 9cm bla;
+    
+    
   }
+.BeerCard{
+  position: relative;
+ display: flex;
+ text-align: center;
+  margin:40px 25px;
+  border-radius: 7%;
+  box-shadow: 0 0 100px rgba(231, 49, 49, 0.3);
+  display: inline-block;
+  width: 200px;
+  height: 10%;
+  padding: 5px;
+  
+ 
+}
+.BeerCard:hover{
+  box-shadow:0 0 100px rgba(255, 2, 2, 0.737) ;
+  transition: .8s;
+  translate :4px -25px ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card-container{
+    background-color: pink;
+    padding-top: 100px;
+    padding-left: 20px;
+    border: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .input-container{
+    height:30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    background:white ;
+    border-radius: 9px;
+    border: none;
   }
+.input-container:hover {
+  width:400px;
+  transition: 5s ease;
 }
+.input-container input{
+  width:0;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.img{
+  height: 200px;
+  width:auto;
+}
+
